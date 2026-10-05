@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-marigold: #E08A1E;
+    --color-marigold-hover: #C6740E;
+    --color-magenta: #A6305E;
+    --color-magenta-hover: #8B234D;
+    --color-sage: #5C7A5E;
+    --color-sage-light: #7A9B7C;
+    --color-cream: #FBF4E8;
+    --color-cream-card: #FFFDF9;
+    --color-charcoal: #2B2420;
+    --color-charcoal-muted: #574B45;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-devanagari {
+    font-family: 'Noto Sans Devanagari', 'Playfair Display', sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EADA;
+}
+::-webkit-scrollbar-thumb {
+  background: #E08A1E;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A6305E;
+}
+
+/* Pattern background utilities */
+.bg-rangoli-dots {
+  background-image: radial-gradient(#E08A1E 0.75px, transparent 0.75px), radial-gradient(#A6305E 0.75px, #FBF4E8 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  opacity: 0.25;
+}
+
+.bg-pattern-subtle {
+  background-color: #FBF4E8;
+  background-image: radial-gradient(#D8B282 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+}
+
+/* Custom shadow utilities */
+.shadow-warm-sm {
+  box-shadow: 0 2px 8px -2px rgba(43, 36, 32, 0.08), 0 4px 16px 0 rgba(224, 138, 30, 0.06);
+}
+.shadow-warm-md {
+  box-shadow: 0 4px 20px -4px rgba(43, 36, 32, 0.1), 0 10px 25px -5px rgba(166, 48, 94, 0.08);
+}
+.shadow-warm-lg {
+  box-shadow: 0 12px 35px -8px rgba(43, 36, 32, 0.12), 0 16px 40px -10px rgba(224, 138, 30, 0.15);
+}
+
+/* Smooth Reveal Animations */
+.reveal-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-fade-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Subtle Rangoli Border Accent */
+.rangoli-border-bottom {
+  position: relative;
+}
+.rangoli-border-bottom::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #E08A1E 0%, #A6305E 50%, #5C7A5E 100%);
+  border-radius: 2px;
+}
