@@ -16,7 +16,7 @@ export default function Navbar({ onOpenReserveModal }) {
       }
 
       // Track active section for highlight
-      const sections = ['hero', 'about', 'menu', 'gallery', 'reviews', 'hours', 'location', 'contact'];
+      const sections = ['hero', 'about', 'menu', 'rooms', 'gallery', 'reviews', 'hours', 'location', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const section of sections) {
@@ -39,6 +39,7 @@ export default function Navbar({ onOpenReserveModal }) {
   const navLinks = [
     { label: 'About', href: '#about', id: 'about' },
     { label: 'Menu', href: '#menu', id: 'menu' },
+    { label: 'Rooms & Stay', href: '#rooms', id: 'rooms' },
     { label: 'Gallery', href: '#gallery', id: 'gallery' },
     { label: 'Reviews', href: '#reviews', id: 'reviews' },
     { label: 'Hours', href: '#hours', id: 'hours' },

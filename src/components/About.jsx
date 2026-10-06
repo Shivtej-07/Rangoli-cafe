@@ -44,7 +44,7 @@ export default function About() {
                     <ShieldCheck className="w-7 h-7" />
                   </div>
                   <div>
-                    <div className="font-bold text-sm text-[#2B2420]">Women-Led Warmth</div>
+                    <div className="font-bold text-sm text-[#2B2420]">Man-Led Hospitality</div>
                     <div className="text-xs text-[#574B45]">Fresh homestyle meals cooked with family recipes</div>
                   </div>
                 </div>

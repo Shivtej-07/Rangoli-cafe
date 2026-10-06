@@ -1,9 +1,10 @@
 import React from 'react';
 import { BADGES } from '../data/content';
-import { Heart, Sparkles, Mountain, Leaf, Dog, Flame } from 'lucide-react';
+import { Heart, Sparkles, Mountain, Leaf, Dog, UserCheck } from 'lucide-react';
 import Reveal from './Reveal';
 
 const ICON_MAP = {
+  UserCheck: UserCheck,
   HeartHandshake: Heart,
   Sparkles: Sparkles,
   Mountain: Mountain,

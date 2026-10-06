@@ -51,7 +51,7 @@ export default function Hero({ onOpenReserveModal }) {
         {/* Identity Subtitle Pill Strip */}
         <div className="flex flex-wrap justify-center items-center gap-2 mb-6 text-xs sm:text-sm">
           <span className="bg-[#A6305E]/80 backdrop-blur-sm text-white px-3 py-1 rounded-full font-bold shadow-sm">
-            👩‍🍳 Women-Owned
+            👨‍🍳 Man-Owned & Operated
           </span>
           <span className="bg-[#5C7A5E]/80 backdrop-blur-sm text-white px-3 py-1 rounded-full font-bold shadow-sm">
             🏳️‍🌈 LGBTQ+ Friendly

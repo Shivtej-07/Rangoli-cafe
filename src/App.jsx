@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Badges from './components/Badges';
 import About from './components/About';
 import Menu from './components/Menu';
+import Rooms from './components/Rooms';
 import Gallery from './components/Gallery';
 import Reviews from './components/Reviews';
 import Hours from './components/Hours';
@@ -32,6 +33,7 @@ export default function App() {
         <Badges />
         <About />
         <Menu />
+        <Rooms />
         <Gallery />
         <Reviews />
         <Hours />

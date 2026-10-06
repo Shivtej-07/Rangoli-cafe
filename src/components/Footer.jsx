@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
 
             <p className="text-sm text-[#FBF4E8]/80 leading-relaxed font-light max-w-md">
-              A women-owned, LGBTQ+ friendly sanctuary in Vashist, Manali. Serving homestyle Indian food, herbal chai, and unforgettable Himalayan mountain vistas.
+              A man-owned & operated, LGBTQ+ friendly sanctuary in Vashist, Manali. Serving homestyle Indian food, herbal chai, monthly rooms stay, and unforgettable Himalayan mountain vistas.
             </p>
 
             <div className="flex items-center gap-2 text-xs font-semibold text-amber-300">

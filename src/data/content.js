@@ -2,8 +2,8 @@ export const CAFE_INFO = {
   name: "Rangoli Cafe & Restaurant",
   hindiName: "रंगोली कैफे & रेस्टोरेंट",
   tagline: "Homestyle Delicacies & Mountain Charm in Vashist",
-  subtitle: "Women-owned, LGBTQ+ friendly cafe nestled on the peaceful trail to Jogni Waterfalls.",
-  description: "Welcome to Rangoli Cafe & Restaurant — a vibrant mountain haven where rich Indian culinary heritage meets warm Himachali hospitality. Founded and run by local women entrepreneurs, we take pride in offering a welcoming, safe space for everyone. Enjoy authentic homestyle meals, hand-brewed chai, and breathtaking panoramic views of snow-capped Himalayan peaks.",
+  subtitle: "Man-owned & operated, LGBTQ+ friendly cafe nestled on the peaceful trail to Jogni Waterfalls.",
+  description: "Welcome to Rangoli Cafe & Restaurant — a vibrant mountain haven where rich Indian culinary heritage meets warm Himachali hospitality. Founded and run by local male entrepreneurs & mountain hosts, we take pride in offering a welcoming, safe space for everyone. Enjoy authentic homestyle meals, hand-brewed chai, cozy rooms for stay, and breathtaking panoramic views of snow-capped Himalayan peaks.",
   rating: 4.8,
   reviewCount: 510,
   address: "759P+3V6 On the way, Jogni Waterfall Rd, opposite to Yogashala, Vashist, Bashisht, Himachal Pradesh 175103",
@@ -11,7 +11,7 @@ export const CAFE_INFO = {
   landmarks: "5 min walk from Vashist Temple Hot Springs • Opposite Yogashala",
   phone: "+91 98056 16406",
   phoneRaw: "+919805616406",
-  whatsappUrl: "https://wa.me/919805616406?text=Hello%20Rangoli%20Cafe!%20I%20would%20like%20to%20reserve%20a%20table.",
+  whatsappUrl: "https://wa.me/919805616406?text=Hello%20Rangoli%20Cafe!%20I%20would%20like%20to%20reserve%20a%20table%20or%20room.",
   instagram: "@rangolicafevashist",
   instagramUrl: "https://instagram.com",
   email: "hello@rangolicafevashist.com",
@@ -21,11 +21,11 @@ export const CAFE_INFO = {
 
 export const BADGES = [
   {
-    id: "women-owned",
-    title: "Women-Owned",
-    hindi: "महिला संचालित",
-    description: "Founded and lovingly run by local women entrepreneurs",
-    icon: "HeartHandshake"
+    id: "man-owned",
+    title: "Man-Owned & Run",
+    hindi: "पुरुष संचालित",
+    description: "Founded and lovingly run by local male host and team",
+    icon: "UserCheck"
   },
   {
     id: "lgbtq-friendly",
@@ -62,8 +62,8 @@ export const ABOUT_DATA = {
   hindiHeading: "हमारी कहानी - अपनापन और स्वाद",
   paragraphs: [
     "Rangoli Cafe & Restaurant was born out of a shared dream to create a joyful, nourishing sanctuary in Vashist. Located just off the main path to the famous Jogni Waterfalls and directly opposite Yogashala, our cafe offers a peaceful escape from busy town squares.",
-    "As a women-owned business, we believe in hospitality that feels like coming home. Every dish is cooked with love, using traditional family recipes, hand-ground spices, and fresh vegetables sourced daily from mountain farmers.",
-    "Whether you're stopping by for a comforting pot of Masala Chai after a long trek, craving a rich Himachali Dham thali, or looking for a cozy nook to read while taking in the Himalayan vista, our doors and hearts are always open."
+    "As a locally man-owned business, we believe in hospitality that feels like coming home. Every dish is cooked with love, using traditional family recipes, hand-ground spices, and fresh vegetables sourced daily from mountain farmers.",
+    "Whether you're stopping by for a comforting pot of Masala Chai after a long trek, craving a rich Himachali Dham thali, or looking for cozy rooms to stay for months or daily visits while taking in the Himalayan vista, our doors and hearts are always open."
   ],
   stats: [
     { label: "Google Rating", value: "4.8 ★" },
@@ -336,12 +336,12 @@ export const GALLERY_ITEMS = [
 export const REVIEWS = [
   {
     id: 1,
-    name: "Aanya & Sarah",
+    name: "Rohan & Sarah",
     location: "Mumbai & Bristol",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
     rating: 5,
     date: "2 weeks ago",
-    text: "Rangoli Cafe is pure magic! As queer travelers, finding a place that feels this safe, warm, and genuinely welcoming in Vashist was incredible. The Women-owned vibe shines through in every detail. Don't miss the Himachali Thali and the hot Seabuckthorn tea on the sun deck!"
+    text: "Rangoli Cafe is pure magic! Finding a place that feels this safe, warm, and genuinely welcoming in Vashist was incredible. The warm mountain host vibe shines through in every detail. Don't miss the Himachali Thali and the hot Seabuckthorn tea on the sun deck!"
   },
   {
     id: 2,
@@ -359,7 +359,7 @@ export const REVIEWS = [
     avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
     rating: 5,
     date: "3 weeks ago",
-    text: "Stopped by after hiking up to Jogni Waterfalls. The hosts were so kind, offering extra ginger tea and blankets on the terrace. The stuffed parathas and garlic naan were perfection. 10/10 recommend!"
+    text: "Stopped by after hiking up to Jogni Waterfalls. The hosts were so kind, offering extra ginger tea and blankets on the terrace. The stuffed parathas and room stays for long trips are absolute perfection. 10/10 recommend!"
   },
   {
     id: 4,
@@ -368,8 +368,59 @@ export const REVIEWS = [
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
     rating: 5,
     date: "2 months ago",
-    text: "A hidden gem in Vashist village! Peaceful atmosphere, super fast Wi-Fi for remote work, and incredible homestyle food. The women managing the kitchen are absolute sweethearts."
+    text: "A hidden gem in Vashist village! Peaceful atmosphere, super fast Wi-Fi for remote work, and incredible homestyle food. The owner and team managing the kitchen are absolute sweethearts."
   }
+];
+
+export const ROOM_ITEMS = [
+  {
+    id: "r1",
+    title: "Himalayan Sunrise Deluxe Room",
+    hindiTitle: "हिमालयन सनराइज डीलक्स रूम (मासिक / दैनिक)",
+    monthlyPrice: "₹14,000 / month",
+    monthlyNumeric: 14000,
+    dailyPrice: "₹950 / day",
+    dailyNumeric: 950,
+    type: "Private Balcony & Valley View",
+    description: "Spacious wooden-paneled room with king bed, attached hot bath, private balcony overlooking Solang valley, and high-speed Wi-Fi.",
+    features: ["24x7 Hot Shower", "High-Speed Wi-Fi", "Private Balcony View", "Cafe Food Service", "Work Desk & Power Backup"],
+    image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+    isPopular: true
+  },
+  {
+    id: "r2",
+    title: "Cozy Nomad Backpacker Room",
+    hindiTitle: "कोज़ी नोमैड रूम (मासिक एवं दैनिक)",
+    monthlyPrice: "₹8,500 / month",
+    monthlyNumeric: 8500,
+    dailyPrice: "₹550 / day",
+    dailyNumeric: 550,
+    type: "Budget & Long Stay Friendly",
+    description: "Comfortable room ideal for solo trekkers, digital nomads, and travelers staying for months or daily visits.",
+    features: ["Hot Water Supply", "Fast Wi-Fi", "Homestyle Food Discount", "Peaceful Work Corner", "Laundry Service"],
+    image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=800&q=80",
+    isPopular: false
+  },
+  {
+    id: "r3",
+    title: "Jogni Waterfall View Suite",
+    hindiTitle: "जोगनी वॉटरफॉल व्यू सुइट",
+    monthlyPrice: "₹18,000 / month",
+    monthlyNumeric: 18000,
+    dailyPrice: "₹1,200 / day",
+    dailyNumeric: 1200,
+    type: "Premium Mountain Living",
+    description: "Top floor suite with panoramic 360-degree mountain views, plush bedding, sit-out lounge, and kitchenette access.",
+    features: ["360 Mountain View", "Room Heater", "Free Morning Chai", "Private Lounge Area", "Attached Modern Bath"],
+    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+    isPopular: true
+  }
+];
+
+export const INITIAL_STAFF_WAGES = [
+  { id: 1, name: "Ramesh Sharma", role: "Head Cook", dailyRate: 700, monthlyBase: 18000, daysWorkedThisMonth: 26, roomProvided: true },
+  { id: 2, name: "Vikram Singh", role: "Cafe Service & Steward", dailyRate: 500, monthlyBase: 13000, daysWorkedThisMonth: 28, roomProvided: true },
+  { id: 3, name: "Sanjay Kumar", role: "Housekeeping & Room Staff", dailyRate: 450, monthlyBase: 11500, daysWorkedThisMonth: 25, roomProvided: true }
 ];
 
 export const HOURS_LIST = [
@@ -388,7 +439,11 @@ export const FAQ_DATA = [
     answer: "We are located on Jogni Waterfall Road, directly opposite Yogashala, about a 5-minute gentle walk up from the main Vashist Temple and hot water springs."
   },
   {
-    question: "Do you offer vegan and gluten-free options?",
+    question: "Do you have rooms available for monthly stay and daily rates?",
+    answer: "Yes! We offer fully furnished rooms for monthly stay (starting from ₹8,500/month) as well as daily rental rates (starting from ₹550/day) with mountain balcony views and hot shower."
+  },
+  {
+    question: "Do you offer vegan and gluten-free options on the menu?",
     answer: "Yes! Many of our traditional Himachali vegetable curries, thalis, fresh fruit bowls, and herbal teas are naturally vegan or can be made gluten-free upon request."
   },
   {
@@ -396,7 +451,8 @@ export const FAQ_DATA = [
     answer: "Absolutely! We have an open-air wooden terrace overlooking the valley and the majestic peaks of the Solang range."
   },
   {
-    question: "Can I book a table in advance?",
-    answer: "Yes! You can reserve a table directly via our website reservation form or drop us a quick message on WhatsApp (+91 98056 16406)."
+    question: "Can I book a table or room in advance?",
+    answer: "Yes! You can reserve a table or book rooms directly via our website form or drop us a quick WhatsApp message (+91 98056 16406)."
   }
 ];
+
